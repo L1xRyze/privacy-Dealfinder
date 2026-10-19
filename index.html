@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Politique de confidentialité — DealFinder</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%237c6cf0%22/%3E%3Cpath d=%22M10 16.5l4 4 8-9%22 stroke=%22white%22 stroke-width=%223%22 fill=%22none%22/%3E%3C/svg%3E">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f7f7fa;
+    --card: #ffffff;
+    --text: #15151b;
+    --muted: #5d5d6b;
+    --border: #e4e4ea;
+    --accent: #6d4ef0;
+    --accent-soft: #6d4ef014;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0a0a0d;
+      --card: #111116;
+      --text: #ececf1;
+      --muted: #9b9bab;
+      --border: #24242c;
+      --accent: #9d8cff;
+      --accent-soft: #9d8cff1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    background: var(--card);
+  }
+  .bar {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 650; color: var(--text); text-decoration: none; }
+  .brand svg { width: 28px; height: 28px; }
+  nav { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  nav a[aria-current="page"] { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+  main { max-width: 820px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: clamp(1.7rem, 4vw, 2.2rem); line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  .summary {
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 32px;
+  }
+  .summary p { margin: 0; }
+  .summary ul { margin: 8px 0 0; padding-left: 20px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14.5px; }
+  th, td { text-align: left; border-bottom: 1px solid var(--border); padding: 9px 8px; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; }
+  .table-wrap { overflow-x: auto; }
+  code { font-size: 0.9em; background: var(--accent-soft); padding: 1px 5px; border-radius: 5px; }
+  footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+  footer .bar { justify-content: space-between; }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <span class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#g)"/><path d="M10 16.5l4 4 8-9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      DealFinder
+    </span>
+    
+  </div>
+</header>
+<main>
+<h1>Politique de confidentialité</h1>
+<p class="updated">Dernière mise à jour : 19 octobre 2026</p>
+
+<div class="summary">
+  <p><strong>En bref</strong></p>
+  <ul>
+    <li>Le bot DealFinder <strong>ne lit pas vos messages</strong> et ne collecte aucune donnée personnelle sur les membres des serveurs Discord où il est installé.</li>
+    <li>Il conserve uniquement les identifiants des serveurs et salons configurés pour y publier ses alertes.</li>
+    <li>Le dashboard web est réservé aux cofondateurs du projet : seules leurs données de connexion Discord sont traitées.</li>
+    <li>Aucune donnée n'est vendue, louée ni utilisée à des fins publicitaires.</li>
+  </ul>
+</div>
+
+<h2>1. Qui sommes-nous ?</h2>
+<p>DealFinder est un bot Discord qui publie des alertes sur des annonces Vinted publiques, accompagné d'un tableau de bord web (le « dashboard ») permettant à ses cofondateurs de le configurer. Le service est édité et administré par les cofondateurs de DealFinder, responsables du traitement des données décrites ci-dessous.</p>
+<p>Pour toute question relative à vos données : par message privé Discord à l'un des cofondateurs de DealFinder.</p>
+
+<h2>2. Données traitées</h2>
+
+<h3>2.1 Serveurs Discord où le bot est installé</h3>
+<p>Le bot fonctionne avec les autorisations minimales de Discord. Il <strong>n'utilise pas</strong> l'accès au contenu des messages (« Message Content ») ni la liste des membres, et ne lit, ne stocke ni n'analyse les messages, pseudonymes, rôles ou activités des membres.</p>
+<p>Données conservées :</p>
+<ul>
+  <li>l'identifiant du serveur sélectionné pour les alertes ;</li>
+  <li>les identifiants des salons configurés pour recevoir les alertes (salon général, par marque, par recherche, annonces très rentables, erreurs, secours) ;</li>
+  <li>l'historique technique des envois (salon, date, statut d'envoi), afin de ne jamais publier deux fois la même annonce dans un salon.</li>
+</ul>
+
+<h3>2.2 Cofondateurs utilisant le dashboard</h3>
+<p>L'accès au dashboard se fait par « Se connecter avec Discord » (OAuth2), avec les autorisations <code>identify</code> et <code>guilds</code>. Il est limité à une liste fixe de comptes Discord autorisés.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Donnée</th><th>Origine</th><th>Utilisation</th></tr></thead>
+  <tbody>
+    <tr><td>Identifiant Discord, nom d'utilisateur, nom affiché, avatar</td><td>Discord (<code>identify</code>)</td><td>Vérifier l'autorisation d'accès, afficher le compte connecté, attribuer les actions dans le journal</td></tr>
+    <tr><td>Liste de vos serveurs Discord (identifiant, nom, icône, droit de gestion)</td><td>Discord (<code>guilds</code>)</td><td>Proposer uniquement les serveurs que vous gérez et où le bot est installé</td></tr>
+    <tr><td>Session : empreinte chiffrée du jeton, adresse IP, navigateur (user-agent), dates</td><td>Votre navigateur</td><td>Maintenir la connexion, afficher et révoquer vos sessions actives, sécurité</td></tr>
+    <tr><td>Journal d'activité (actions effectuées, date, auteur)</td><td>Dashboard</td><td>Traçabilité des modifications et sécurité</td></tr>
+    <tr><td>Informations saisies (favoris, prix d'achat et de vente, notes)</td><td>Vous</td><td>Suivi des achats et calcul du bénéfice réel</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Le jeton d'accès OAuth2 fourni par Discord est utilisé uniquement au moment de la connexion et <strong>n'est pas conservé</strong>. Si un compte non autorisé tente de se connecter, seul son identifiant Discord est enregistré dans le journal de sécurité, sans création de compte.</p>
+
+<h3>2.3 Annonces Vinted</h3>
+<p>DealFinder consulte les pages publiques de recherche de Vinted et enregistre les informations publiques des annonces : identifiant, titre, marque, catégorie, taille, état, prix, lien vers l'annonce et adresse de la photo. <strong>Aucune donnée concernant les vendeurs</strong> (nom, profil, localisation, coordonnées) n'est collectée. Les photos ne sont pas copiées : elles restent hébergées par Vinted et sont affichées par lien.</p>
+
+<h2>3. Finalités et bases légales</h2>
+<ul>
+  <li><strong>Fournir le service</strong> (publier les alertes, configurer le bot, afficher l'historique et les statistiques) : intérêt légitime des éditeurs et des administrateurs de serveurs qui ont ajouté le bot.</li>
+  <li><strong>Sécuriser le service</strong> (contrôle d'accès, sessions, journal d'activité) : intérêt légitime.</li>
+</ul>
+<p>DealFinder ne fait ni profilage, ni publicité, ni revente de données, et n'utilise pas vos données pour entraîner des modèles d'intelligence artificielle.</p>
+
+<h2>4. Cookies et stockage local</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Nom</th><th>Type</th><th>Rôle</th><th>Durée</th></tr></thead>
+  <tbody>
+    <tr><td><code>df_session</code></td><td>Cookie strictement nécessaire (HttpOnly)</td><td>Maintenir votre connexion au dashboard</td><td>7 jours, ou jusqu'à la déconnexion</td></tr>
+    <tr><td><code>df_oauth_state</code></td><td>Cookie strictement nécessaire (HttpOnly)</td><td>Protéger la connexion Discord contre la falsification</td><td>10 minutes</td></tr>
+    <tr><td><code>df-theme</code>, <code>df-sidebar</code></td><td>Stockage local du navigateur</td><td>Mémoriser le thème et l'état de la barre latérale</td><td>Jusqu'à leur suppression par vous</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Aucun cookie publicitaire, de mesure d'audience ou de tiers n'est utilisé.</p>
+
+<h2>5. Destinataires et sous-traitants</h2>
+<p>Les données ne sont accessibles qu'aux cofondateurs de DealFinder. Elles transitent ou sont hébergées chez les prestataires techniques suivants :</p>
+<ul>
+  <li><strong>Discord</strong> : authentification et envoi des messages du bot ;</li>
+  <li><strong>Railway</strong> : hébergement de l'application et de la base de données.</li>
+</ul>
+<p>Vinted reçoit uniquement des requêtes de consultation de pages publiques ; aucune donnée vous concernant ne lui est transmise. Ces prestataires peuvent traiter des données en dehors de l'Union européenne, dans le cadre des garanties prévues par leurs propres conditions (notamment les clauses contractuelles types de la Commission européenne).</p>
+
+<h2>6. Durées de conservation</h2>
+<ul>
+  <li><strong>Sessions</strong> : 7 jours au maximum ; révocables à tout moment depuis la page Sécurité ou par déconnexion.</li>
+  <li><strong>Annonces et journal d'activité</strong> : supprimés automatiquement après la durée de rétention configurée (90 jours par défaut).</li>
+  <li><strong>Favoris et montants saisis</strong> : conservés jusqu'à leur suppression par un cofondateur.</li>
+  <li><strong>Compte cofondateur</strong> (identifiant, pseudo, avatar, liste des serveurs) : conservé tant que l'accès au dashboard est autorisé ; la liste des serveurs est remplacée à chaque connexion.</li>
+  <li><strong>Identifiants de serveur et de salons</strong> : conservés tant qu'ils sont configurés, ou supprimés sur demande.</li>
+</ul>
+
+<h2>7. Sécurité</h2>
+<p>Les échanges sont chiffrés (HTTPS). Les jetons de session sont stockés sous forme d'empreinte, les cookies sont protégés (HttpOnly, SameSite) et les requêtes de modification sont protégées contre les attaques CSRF. Les secrets du service (token du bot, secrets OAuth2) ne quittent jamais le serveur et ne sont jamais écrits dans le journal.</p>
+
+<h2>8. Vos droits</h2>
+<p>Conformément au Règlement général sur la protection des données (RGPD), vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité de vos données. Pour les exercer : par message privé Discord à l'un des cofondateurs de DealFinder. Nous répondons dans un délai d'un mois.</p>
+<p>Un administrateur de serveur peut à tout moment retirer DealFinder de son serveur : le bot cesse alors d'y publier, et les identifiants de salons associés sont supprimés sur simple demande.</p>
+<p>Vous pouvez également introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" rel="noopener">www.cnil.fr</a>).</p>
+
+<h2>9. Mineurs</h2>
+<p>DealFinder s'adresse aux utilisateurs ayant l'âge minimum requis par Discord dans leur pays. Il ne collecte sciemment aucune donnée personnelle concernant des mineurs n'ayant pas cet âge.</p>
+
+<h2>10. Modifications</h2>
+<p>Cette politique peut être mise à jour pour refléter une évolution du service. La date de dernière mise à jour figure en haut de cette page.</p>
+
+</main>
+<footer>
+  <div class="bar">
+    <span>© 2026 DealFinder</span>
+    <span>Contact : par message privé Discord à l'un des cofondateurs de DealFinder</span>
+  </div>
+</footer>
+</body>
+</html>
